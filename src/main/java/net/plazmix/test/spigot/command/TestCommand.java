@@ -21,7 +21,7 @@ public class TestCommand {
                         sender.sendMessage("This command can be executed by players only!");
                         return;
                     }
-                    player.setExp(player.getExp() + 10F);
+                    player.setLevel(player.getLevel() + 1);
                     player.playSound(player.getLocation(), Sound.ORB_PICKUP, 1F, 1F);
                 })
 

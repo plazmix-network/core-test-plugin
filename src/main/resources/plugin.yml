@@ -1,6 +1,6 @@
 name: CoreTestPlugin
 main: net.plazmix.test.spigot.CoreTestSpigotPlugin
 version: ${project.version}
-depend: [ Core ]
+depend: [ Core-spigot ]
 authors:
   - MasterCapeXD
