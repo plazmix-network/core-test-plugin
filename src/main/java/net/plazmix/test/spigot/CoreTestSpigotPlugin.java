@@ -10,12 +10,8 @@ public class CoreTestSpigotPlugin extends JavaPlugin {
     private SpigotCoreApi coreApi;
 
     @Override
-    public void onLoad() {
-        this.coreApi = (SpigotCoreApi) Core.getApi();
-    }
-
-    @Override
     public void onEnable() {
+        this.coreApi = (SpigotCoreApi) Core.getApi();
         TestCommand.createAndRegister(coreApi);
     }
 }
